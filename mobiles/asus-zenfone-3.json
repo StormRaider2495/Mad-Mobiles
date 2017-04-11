@@ -1,0 +1,27 @@
+{
+	"name": "Zenfone 3",
+	"tagname": "In search of Incredible",
+	"description": "ZenFone 3 is an agile, exquisite design inspired by the beauty of nature. ",
+	"specs": {
+		"Dimensions": "152.59 x 77.38 x 7.69 mm",
+		"Weight": "155 g",
+		"Material": "Anodized aluminum",
+		"Color": "Glass finish : Sapphire Black/Moonlight White/Shimmer Gold",
+		"Operating System": "Android™ 6.0 with brand-new ASUS ZenUI 3.0",
+		"CPU": "64-bit Qualcomm® Octa-Core ProcessorSnapdragon™ 625 @2.0Ghz",
+		"GPU": "Adreno™ 506",
+		"RAM": "3GB / 4GB LPDDR3",
+		"Storage": "eMCP 32GB / 64GB / Micro SD Card up to2 TB ",
+		"Sensors": "Accelerator/E-Compass/Gyroscope/Proximity sensor/Hall sensor/Ambient light sensor/RGB sensor/IR sensor (Laser Focus)/Fingerprint",
+		"Ports": "USB Type-C 2.0 3.5mm audio jack(1 Head phone / Mic-in)",
+		"Battery": "3000mAh (non-removable)"
+	},
+	"price": "Rs. 27,999",
+	"images": [
+		"http://www.thewordlyconfusion.com/wp-content/uploads/2016/08/ZenFone-3-Deluxe.png",
+		"https://www.dpreview.com/files/p/E~products/asus_zenfone3ultra/shots/47826c0e7e184999997726b4c32fd8be.png",
+		"http://wnot.com.ph/wp-content/uploads/2016/08/ZF3-MAX-6-jpg.png",
+		"http://z3n.asus.in/images/product/inner/big-z3-laser.png"
+	],
+	"wallpaper": "img/ZenFone-3-1920-x-1080.jpg"
+}

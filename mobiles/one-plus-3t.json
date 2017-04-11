@@ -1,0 +1,30 @@
+{
+	"name": "One Plus 3T",
+  "tagname": "Never Settle",
+  "description" : "The OnePlus 3T stays true to our Never Settle approach. Impressive specs mean nothing if you don’t have a great experience every time you pick up your phone. The OnePlus 3T delivers the best user experience, thanks to the latest hardware upgrades and carefully tested software enhancements. It was developed with care, craftsmanship and in collaboration with our community.",
+	"specs": {
+		"Dimensions": "152.7 x 74.7 x 7.35 mm",
+		"Weight": "158 g",
+		"Material": "Anodized aluminum",
+		"Color": " Gunmetal / Soft Gold",
+		"Operating System": "OxygenOS based on Android™ Nougat",
+		"CPU": "Qualcomm® Snapdragon™ 821 Quad Core, Kryo™ 2x 2.35 GHz, 2x 1.6 GHz",
+		"GPU": "Adreno™ 530",
+		"RAM": "6GB LPDDR4",
+		"Storage": "64GB / 128GB UFS 2.0",
+		"Sensors": "Fingerprint sensor, Hall sensor, Accelerometor, Gyroscope, Proximity sensor, Ambient light sensor, Electronic Compass",
+		"Ports": "USB 2.0, Type-C, Dual nano-SIM slot, 3.5 mm audio jack",
+		"Battery": "3,400 mAh (non-removable)",
+		"Dash Charge": "(5V, 4A)"
+	},
+	"price":"Rs. 29,900",
+	"images": [
+		"http://files.mgsm.pl//news/6839/overview-soft-gold-large.png",
+		"https://fscl01.fonpit.de/userfiles/6727621/image/2016/oneplus-3t-review/AndroidPIT-oneplus-3t-1377-w782.jpg",
+		"https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge/public/article_images/2017/03/oneplus-3t-midnight-black2.jpg?itok=MSQBNcVw",
+		"http://images.anandtech.com/doci/10832/Header2_678x452.png",
+		"https://blogs-images.forbes.com/gordonkelly/files/2016/11/Screenshot-2016-11-16-at-01.08.29.png",
+		"https://scdn.androidcommunity.com/wp-content/uploads/2016/10/OnePlus-3T-3-Turbo.jpg"
+		],
+	"wallpaper":"img/default_golden_dragon_wide.jpg"
+}

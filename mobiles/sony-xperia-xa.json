@@ -1,0 +1,26 @@
+{
+	"name": "Sony Xperia XZ",
+	"tagname": "Choose Phone that always there for you",
+	"description": "An in-depth look at Sony's top-end Android phone. ",
+	"specs": {
+		"Dimensions": "146 x 72 x 8.1 mm",
+		"Weight": "161 g",
+		"Material": "Main body: Aluminum",
+		"Color": "Black, Gray, Pink, Blue",
+		"Operating System": "Qualcomm Snapdragon 820 MSM8996",
+		"CPU": "64-bit Qualcomm® Octa-Core ProcessorSnapdragon™ 625 @2.0Ghz",
+		"RAM": "3GB",
+		"Storage": "32 GB + MicroSD ",
+		"Sensors": "Accelerometer, Gyroscope, Compass, Barometer, Step detector, Step counter",
+		"Ports": "USB Type-C 2.0 3.5mm audio jack(1 Head phone / Mic-in)",
+		"Battery": "2900 mAh (non-removable)"
+	},
+	"price": "Rs. 30,000",
+	"images": [
+		"https://cdn.arstechnica.net/wp-content/uploads/2016/08/Xperia-XZ_forestBlue_group_SCR1.png",
+		"https://scdn.androidcommunity.com/wp-content/uploads/2014/09/sony_xperia_z_large.png",
+		"http://www.bell.ca/Styles/wireless/all_languages/all_regions/catalog_images/Sony_Xperia_X_performance/Sony-Xperia-X-Performance_Black_Lrg1_en.png",
+		"http://www.static.xperiablog.net/wp-content/uploads/2016/02/Xperia-X-Performance-Black-Group-640x640.png"
+	],
+	"wallpaper": "img/47772316-xperia-z-wallpaper.jpg"
+}

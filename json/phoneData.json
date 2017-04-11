@@ -1,0 +1,64 @@
+[{
+	"id": "asus-zenfone-3",
+	"model": "Model 1",
+	"name": "Asus Zenfone 3",
+	"snippet": "In search of Incredible",
+	"src": "img/ZF3-MAX-6-jpg.png",
+	"age": "2016",
+	"image": "img/wallhaven-311977.png",
+	"price":"Rs. 29,999"
+}, {
+	"id": "one-plus-3t",
+	"model": "Model 1",
+	"name": "One Plus 3T",
+	"snippet": "Fast just got faster with Dash Charging",
+	"src": "img/overview-soft-gold-large.png",
+	"age": "2016",
+	"image": "img/default_golden_dragon_wide.jpg",
+	"price":"Rs. 29,500"
+}, {
+	"id": "mi-note",
+	"model": "Model 2",
+	"name": "Mi Note",
+	"snippet": "The First Note",
+	"src": "img/mi-note.png",
+	"age": "2014",
+	"image": "img/Mi-Note_homescreen_droidviews.jpg",
+	"price":"Rs. 11,999"
+}, {
+	"id": "sony-xperia-xa",
+	"model": "Model 4",
+	"name": "Sony Xperia XA",
+	"snippet": "Choose the that always there for you",
+	"src": "img/Sony-Xperia-X-Performance.jpg",
+	"age": "2016",
+	"image": "img/47772316-xperia-z-wallpaper.jpg",
+	"price":"Rs. 34,500"
+}, {
+	"id": "samsung-galaxy-s6",
+	"model": "Model 4",
+	"name": "Samsung Galaxy S6",
+	"snippet": "Next is Now",
+	"src": "img/Samsung-Galaxy-S6.png",
+	"age": "2014",
+	"image": "img/samsung_galaxy_s6_default-wide.jpg",
+	"price":"Rs. 30,999"
+}, {
+	"id": "asus-zenfone-2-deluxe",
+	"model": "Model 4",
+	"name": "Asus Zenfone 2 Deluxe",
+	"snippet": "In search of Incredible",
+	"src": "img/zenfone-2-deluxe-1.png",
+	"age": "2014",
+	"image": "img/ZenFone-3-1920-x-1080.jpg",
+	"price":"Rs. 29,999"
+}, {
+	"id": "redmi-note-4",
+	"model": "Model 2",
+	"name": "Redmi Note 4",
+	"snippet": "Power has a new look",
+	"src": "img/REDMINOTE4BK_0.png",
+	"age": "2017",
+	"image": "img/eiffel-tower-wallpaper-18_fRZLW4V.jpg",
+	"price":"Rs. 12,999"
+}]

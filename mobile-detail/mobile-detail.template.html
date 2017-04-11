@@ -1,0 +1,32 @@
+<div class="container-fluid detail-container">
+  <div class="container details" style="background-image:url({{$ctrl.mobile.wallpaper}})">
+    <img ng-src="{{$ctrl.mobile.images[0]}}" class="phone" />
+    <div class="col-md-7">
+      <h1>{{$ctrl.mobile.name}}</h1>
+    </div>
+    <div class="description">
+      <p>{{$ctrl.mobile.description}}</p>
+    </div>
+
+    <h2>Image Gallery</h2>
+      <ul class="phone-thumbs list-group">
+        <li class="list-group-item col-md-5 text-center" ng-repeat="img in $ctrl.mobile.images">
+          <img ng-src="{{img}}" class="phone-images"/>
+        </li>
+      </ul>
+
+      <table class="specs table table-hover">
+        <thead>
+          <tr colspan="2">
+            <th> <h2>Specifications</h2> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr ng-repeat="(key,val) in $ctrl.mobile.specs">
+            <th class="col-xs-5">{{key}}</th>
+            <td class="col-xs-7">{{val}}</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+</div>

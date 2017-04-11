@@ -1,0 +1,48 @@
+[{
+	"model": "Model 1",
+	"name": "Zenfone 3",
+	"snippet": "In search of Incredible",
+	"src": "img/ZF3-MAX-6-jpg.png",
+  "age":"5",
+	"image":"img/wallhaven-311977.png"
+}, {
+	"model": "Model 1",
+	"name": "One Plus",
+	"snippet": "Fast just got faster with mi Note4",
+	"src": "img/overview-soft-gold-large.png",
+  "age":"1",
+	"image":"img/default_golden_dragon_wide.jpg"
+}, {
+	"model": "Model 2",
+	"name": "mi Note",
+	"snippet": "The First Note",
+	"src": "img/mi-note.png",
+  "age":"2",
+	"image":"img/Mi-Note_homescreen_droidviews.jpg"
+}, {
+	"model": "Model 4",
+	"name": "Motorola G Plus",
+	"snippet": "Choose the that always there for you",
+	"src": "img/Sony-Xperia-X-Performance.jpg",
+  "age":"1",
+	"image":"img/47772316-xperia-z-wallpaper.jpg"
+},
+{
+ "model": "Model 4",
+ "name": "Samsung Galaxy S6",
+ "snippet": "Next is Now",
+ "src": "img/Samsung-Galaxy-S6.png",
+ "age":"1",
+ "image":"img/samsung_galaxy_s6_default-wide.jpg"
+},
+
+{
+ "model": "Model 4",
+ "name": "zenfone2 deluxe-1",
+ "snippet": "In search of Incredible",
+ "src": "img/zenfone-2-deluxe-1.png",
+ "age":"1",
+ "image":"img/ZenFone-3-1920-x-1080.jpg"
+}
+
+]

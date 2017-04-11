@@ -1,0 +1,28 @@
+{
+	"name": "Redmi Note 4",
+	"tagname": "Power has a new look",
+	"description": "Power has a new Look ",
+	"specs": {
+		"Dimensions": "Height: 151m Width: 76m Thickness: 8.45m",
+		"Weight": "158 g",
+		"Material": "Anodized aluminum",
+		"Color": "Silver, Gray, Gold, Blue, Black",
+		"Operating System": "OxygenOS based on Android™ Nougat",
+		"CPU": "Snapdragon 625, octa-core 2.0GHz",
+		"GPU": "Mali-T880 MP4",
+		"RAM": "4GB LPDDR3",
+		"Storage": "64GB / 128GB UFS 2.0",
+		"Camera": "13MP CMOS camera, Backside illumination(BSI) technology, 1.12 μm pixels, Ultra - fast 0.1 s PDAF technology, f / 2.0 aperture, 5 - piece lens, 720 p 120 fps slow - motion video recording ",
+		"Sensors": "Electronic compass, Accelerometer, Proximity sensor, Infrared, Ambient light sensor, Gyroscope, Hall sensor",
+		"GPS navigation": "GPS, AGPS, GLONASS, BeiDou positioning",
+		"Battery": "4100mAh (typ) / 4000mAh (min) lithium-ion polymer battery Non-removable 5V/2A charging"
+	},
+	"price": "Rs. 9,900",
+	"images": [
+		"img/redmi-note-4.png",
+		"img/xiaomi-redmi-note-4-black.jpg",
+		"http://cdn.gizmoids.com/wp-content/uploads/2017/01/Xiaomi-Redmi-Note-4-1-1024x832.jpg",
+		"http://images.anandtech.com/doci/11056/xiaomi_redmi_note_4_4P.jpg"
+	],
+	"wallpaper": "img/eiffel-tower-wallpaper-18_fRZLW4V.jpg"
+}

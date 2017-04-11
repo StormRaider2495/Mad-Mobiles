@@ -1,0 +1,44 @@
+[{
+	"id":"one-plus-3t",
+	"model": "Model 1",
+	"name": "OnePlus 3T",
+	"snippet": "A day’z power in half an hour",
+	"src": "http://files.mgsm.pl//news/6839/overview-soft-gold-large.png",
+  "age":"6"
+
+}, {
+	"id":"sony-xperia-xz",
+  "model": "Model 1",
+	"name": "Sony Xperia™ XZ",
+	"snippet": "Capture without blur",
+	"src": "http://i-cdn.phonearena.com/images/articles/228814-image/Sony-Xperia-X-Performance.jpg",
+  "age":"5"
+}, {
+	"id":"nexus-s",
+	"model": "Model 1",
+	"name": "Nexus S",
+	"snippet": "Fast just got faster with Nexus S",
+	"src": "img/nexus-s.jpg",
+  "age":"4"
+}, {
+	"id":"motorola-xoom-with-wifi",
+	"model": "Model 3",
+	"name": "Motorola XOOM™ with Wi-Fi",
+	"snippet": "The Next, Next Generation tablet",
+	"src": "img/motorola-xoom-with-wi-fi.jpg",
+  "age":"1"
+}, {
+	"id":"motorola-xoom",
+	"model": "Model 2",
+	"name": "MOTOROLA XOOM™",
+	"snippet": "The Next, Next Generation tablet",
+	"src": "img/motorola-xoom.jpg",
+  "age":"2"
+}, {
+	"id":"motorola-droid",
+	"model": "Model 4",
+	"name": "DROID™ 2 Global by Motorola",
+	"snippet": "The first smartphone with a 1.2 GHz processor and global capabilities",
+	"src": "img/droid-2-global-by-motorola.jpg",
+  "age":"3"
+}]

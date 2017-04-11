@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Go Angular!</title>
+    <!-- - - - - - - - - - bower components  - - - - - - - - - - -->
+    <!-- - - - - - - - - - bower components  - - - - - - - - - - -->
+      <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" />
+      <script src="bower_components/jquery/dist/jquery.js"></script>
+      <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+      <script src="bower_components/angular/angular.js"></script>
+      <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+      <script src="bower_components/angular-route/angular-route.js"></script>
+    <!-- - - - - - - - - - my stylesheet  - - - - - - - - - - -->
+    <link rel="stylesheet" type="text/css" href="css/mobile.style.css"/>
+    <!-- - - - - - - - - - my scripts  - - - - - - - - - - -->
+    <script src="app.module.js"></script>
+    <script src="app.config.js"></script>
+    <script src="mobile-carousel/mobile-carousel.module.js"></script>
+    <script src="mobile-carousel/mobile-carousel.component.js"></script>
+    <script src="mobile-list/mobile-list.module.js"></script>
+    <script src="mobile-list/mobile-list.component.js"></script>
+    <script src="mobile-detail/mobile-detail.module.js"></script>
+    <script src="mobile-detail/mobile-detail.component.js"></script>
+  </head>
+  <body>
+      <section ng-app="phonecatApp">
+        <div ng-view></div>
+      </section>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target="javascript:void(0)bs-navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="javascript:void(0)">
+        <img src="img/site-logo.png" width="150" height="50" alt="Ristorante con Fusion">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#!/home"> <span class="glyphicon glyphicon-home"></span> Home</a></li>
+        <li class="active"><a href="javascript:void(0)"> <span class="glyphicon glyphicon-info-sign"></span> Mobiles</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)">
+            <span class="glyphicon glyphicon-menu-hamburger"></span> Filter By
+          <span class="caret"></span></a>
+          <ul class="dropdown-menu text-center">
+            <li ng-click="orderByMe('name')"><a href="javascript:void(0)">Name</a></li>
+            <li ng-click="orderByMe('model')"><a href="javascript:void(0)">Model No.</a></li>
+            <li ng-click="orderByMe('-age')"><a href="javascript:void(0)">Recent Release</a></li>
+            <li ng-click="orderByMe('price')"><a href="javascript:void(0)">Price</a></li>
+            <li class="divider"></li>
+            <li><small>Features</small></li>
+            <li ng-click="orderByMe('RAM')"><a href="javascript:void(0)">RAM</a></li>
+            <li ng-click="orderByMe('Memory')"><a href="javascript:void(0)">Memory</a></li>
+          </ul>
+        </li>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search" ng-model="$ctrl.query">
+          </div>
+        </form>
+      </ul>
+    </div> <!-- /navbar-collapse -->
+  </div> <!-- /container-fluid -->
+</nav>
+
+
+
+<div class="col-md-10 col-md-offset-1 jumbotron transparency-half">
+  <div class="container-fluid jumbotron transparency-half">
+    <div class="container">
+      <ul class="container list-group">
+        <li class="container list-group-item mobile-list"
+            ng-repeat="mobile in $ctrl.mobiles  | filter:$ctrl.query | orderBy:myOrderBy  | orderBy:$ctrl.orderProp">
+          <div class="col-md-5">
+            <img class="mobiles" ng-src="{{mobile.src}}" alt="{{mobile.name}}" >
+          </div>
+          <div class="col-md-7">
+            <a href="#!/mobiles/{{mobile.id}}"><h3>{{mobile.name}}</h3></a>
+            <span>{{mobile.model}}</span>
+            <p>{{mobile.snippet}}</p>
+            <h3>{{mobile.price}}</h3>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

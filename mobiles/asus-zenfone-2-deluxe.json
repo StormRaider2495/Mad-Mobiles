@@ -1,0 +1,32 @@
+{
+	"name": "Asus Zenfone 2 Deluxe",
+	"tagname": "In search of Incredible!",
+	"description": "A marvel of craftsmanship and engineering that combines the beauty of Zen, unprecedented performance, fast charging, sharp vision and a seamless and intuitive UI, designed to be your best companion.",
+	"specs": {
+		"Platform":"Android™ 5.0",
+		"Color": "White/Blue/Red",
+		"Dimensions": "77.2 x 152.5 x 3.9 ~ 10.9 cm (WxDxH)",
+		"Weight": "170 g",
+		"Material": "Anodized aluminum",
+		"Operating System": "Android™ 5.0",
+		"CPU": "Intel® Atom™ Quad Core Z3580 (2.3GHz), PowerVR G6430, with OpenGL 3.0 support",
+		"RAM": "4GB LPDDR3",
+		"GPU": "Adreno™ 506",
+		"Storage": "64GB/128GB eMMC Flash 5GB free lifetime ASUS WebStorage",
+		"Memory Slot":"MicroSD card (up to 128 GB)",
+		"Sensors": "Accelerator/E-Compass/Gyroscope/Proximity sensor/Hall sensor/Ambient light sensor/RGB sensor/IR sensor (Laser Focus)/Fingerprint",
+		"Ports": "USB Type-C 2.0 3.5mm audio jack(1 Head phone / Mic-in)",
+		"Battery": "3000 mAh Li-Polymer (non-removable)"
+	},
+	"price": "Rs. 29,999",
+	"images": [
+		"https://www.asus.com/websites/global/products/lON4ZJYERePjiX0w/v3/img/index/kv-product.png",
+		"https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/topic_images/2015/ZenFone-2-deluxe-topic.png?itok=pz108Vlb",
+		"https://www.asus.com/websites/global/products/lON4ZJYERePjiX0w/v3/img/index/pixelmaster-lens.png",
+		"https://www.asus.com/websites/global/products/ZIEfbKZMqH0V0Oww/v3/img/index/performance-product.png",
+		"https://www.asus.com/websites/global/products/lON4ZJYERePjiX0w/v3/img/index/mesmerizing.png",
+		"https://www.asus.com/websites/global/products/4isz7MDE4iOlMLZX/img/index/kv-product.png"
+
+	],
+	"wallpaper": "img/ZenFone-3-1920-x-1080.jpg"
+}

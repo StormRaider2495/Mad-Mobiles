@@ -31,14 +31,32 @@ html::-webkit-scrollbar-track {
 }
 
 div#myCarousel {
-    min-height: 47.3em;
+    position: absolute;
+    top: 5%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
 }
 
 .item {
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    min-height: 47.3em;
+    background-attachment: fixed;    
+	position: absolute;
+    top: 5%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.item.active{
+	height:100%;
+	top:0;
 }
 
 .item img {
@@ -156,15 +174,10 @@ span.ng-binding {
 
 .description p.ng-binding {
     margin: 3%;
-    font-size: 20px;
-    font-family: serif;
-    font-style: italic;
+    font-size: 18px;
+    font-family: cursive;
+    font-weight: 600;
 }
-
-
-/*li.container.list-group-item.ng-scope {
-    margin-bottom: 3em;
-}*/
 
 .col-md-2 {
     padding-top: 5em;
@@ -208,11 +221,33 @@ li.list-group-item.col-md-5.text-center.ng-scope {
     padding: 1em;
 }
 
+.container-fluid.detail-container {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 table.specs.table.table-hover {
     background-color: rgba(240, 248, 255, 0.5);
     border-radius: 20px;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
 .filter {
     margin-top: 8px;
+}
+
+.filters {
+    position: fixed;
+    top: 4em;
+    padding: 0 1em;
+    background-color: black;
+}
+
+.grid-view {
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+    font-size: 10px;
 }

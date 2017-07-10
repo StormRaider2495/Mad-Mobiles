@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="javascript:void(0)">
-        <img src="img/site-logo.png" width="150" height="50" alt="Ristorante con Fusion">
+        <img src="img/site-logo.png" width="150" height="50" alt="Mad Mobile">
       </a>
     </div>
     <div class="collapse navbar-collapse" id="bs-navbar-collapse">
@@ -33,6 +33,16 @@
             <li ng-click="orderByMe('Memory')"><a href="javascript:void(0)">Memory</a></li>
           </ul>
         </li>
+        <li ng-click="gridView()">
+          <a href="javascript:void(0)">
+            <span class="glyphicon glyphicon-th-large"></span> Grid-View
+          </a>
+        </li>
+        <li ng-click="listView()">
+          <a href="javascript:void(0)">
+            <span class="glyphicon glyphicon-th-list"></span> List-View
+          </a>
+        </li>
         <form class="navbar-form navbar-left" role="search">
           <div class="form-group">
             <input type="text" class="form-control" placeholder="Search" ng-model="$ctrl.query">
@@ -43,22 +53,20 @@
   </div> <!-- /container-fluid -->
 </nav>
 
-
-
 <div class="col-md-10 col-md-offset-1 jumbotron transparency-half">
   <div class="container-fluid jumbotron transparency-half">
     <div class="container">
       <ul class="container list-group">
         <li class="container list-group-item mobile-list"
-            ng-repeat="mobile in $ctrl.mobiles  | filter:$ctrl.query | orderBy:myOrderBy  | orderBy:$ctrl.orderProp">
-          <div class="col-md-5">
+            ng-repeat="mobile in $ctrl.mobiles  | filter:$ctrl.query | orderBy:myOrderBy" tabindex="0">
+          <div class="col-xs-5">
             <img class="mobiles" ng-src="{{mobile.src}}" alt="{{mobile.name}}" >
           </div>
-          <div class="col-md-7">
+          <div class="col-xs-6 col-xs-offset-1">
             <a href="#!/mobiles/{{mobile.id}}"><h3>{{mobile.name}}</h3></a>
             <span>{{mobile.model}}</span>
-            <p>{{mobile.snippet}}</p>
-            <h3>{{mobile.price}}</h3>
+            <p class="snippet">{{mobile.snippet}}</p>
+            <h3 class="price">{{mobile.price | currency:"Rs. " : 0}}</h3>
           </div>
         </li>
       </ul>

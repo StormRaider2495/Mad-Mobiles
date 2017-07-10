@@ -6,7 +6,7 @@
 	"src": "img/ZF3-MAX-6-jpg.png",
 	"age": "2016",
 	"image": "img/wallhaven-311977.png",
-	"price":"Rs. 29,999"
+	"price":"29999"
 }, {
 	"id": "one-plus-3t",
 	"model": "Model 1",
@@ -15,7 +15,7 @@
 	"src": "img/overview-soft-gold-large.png",
 	"age": "2016",
 	"image": "img/default_golden_dragon_wide.jpg",
-	"price":"Rs. 29,500"
+	"price":"29500"
 }, {
 	"id": "mi-note",
 	"model": "Model 2",
@@ -24,7 +24,7 @@
 	"src": "img/mi-note.png",
 	"age": "2014",
 	"image": "img/Mi-Note_homescreen_droidviews.jpg",
-	"price":"Rs. 11,999"
+	"price":"11999"
 }, {
 	"id": "sony-xperia-xa",
 	"model": "Model 4",
@@ -33,7 +33,7 @@
 	"src": "img/Sony-Xperia-X-Performance.jpg",
 	"age": "2016",
 	"image": "img/47772316-xperia-z-wallpaper.jpg",
-	"price":"Rs. 34,500"
+	"price":"34500"
 }, {
 	"id": "samsung-galaxy-s6",
 	"model": "Model 4",
@@ -42,7 +42,7 @@
 	"src": "img/Samsung-Galaxy-S6.png",
 	"age": "2014",
 	"image": "img/samsung_galaxy_s6_default-wide.jpg",
-	"price":"Rs. 30,999"
+	"price":"30999"
 }, {
 	"id": "asus-zenfone-2-deluxe",
 	"model": "Model 4",
@@ -51,7 +51,7 @@
 	"src": "img/zenfone-2-deluxe-1.png",
 	"age": "2014",
 	"image": "img/ZenFone-3-1920-x-1080.jpg",
-	"price":"Rs. 29,999"
+	"price":"29999"
 }, {
 	"id": "redmi-note-4",
 	"model": "Model 2",
@@ -60,5 +60,5 @@
 	"src": "img/REDMINOTE4BK_0.png",
 	"age": "2017",
 	"image": "img/eiffel-tower-wallpaper-18_fRZLW4V.jpg",
-	"price":"Rs. 12,999"
+	"price":"12999"
 }]
